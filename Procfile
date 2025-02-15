@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath matching_project matching_project.wsgi
+web: gunicorn matching_project.matching_project.wsgi
